@@ -1,0 +1,11 @@
+﻿* Open a folder inside domain ( test.sharif.me )
+* Git clone inside the folder
+* Project setup
+* Cd /etc/nginx/site-avaiable
+* Copy a old file with new name -> Sudo cp old_name  new_name
+* Open the new_name file to add url -> sudo nano new_name
+* Sudo ln -s /etc/nginx/site-avaiable/test.sharif.me   ./etc/nginx/site-enabled
+* Ls -la
+* Make a db in phpmyadmin
+* Sudo service nginx reload
+* Chmod -R 777 storage
